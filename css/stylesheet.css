@@ -27,17 +27,17 @@ main>.container {
     background-size: cover;
     background-color: rgb(240, 181, 191);
     background-image: linear-gradient(to right, #cb356b, #bd3f32);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 /* big image for bigger screens */
 @media only screen and (min-width: 992px) {
     .header {
-        background-image: url(/img/JillPrestonLarge.png)
+        background-image: url(/img/JillPrestonLarge.png);
     }
-
+}
     /* smaller image for small screens */
     @media only screen and (min-width: 576px) and (max-width: 991px) {
         .header {
-            background-image: url(/img/JillPrestonSmall.png)
+            background-image: url(/img/JillPrestonSmall.png) }
         }
