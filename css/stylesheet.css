@@ -1,0 +1,43 @@
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.body {
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.title {
+    font-family: 'Lato',
+        sans-serif;
+}
+
+/* default styles */
+.header {
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-color: rgb(240, 181, 191);
+    background-image: linear-gradient(to right, #cb356b, #bd3f32);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* big image for bigger screens */
+@media only screen and (min-width: 992px) {
+    .header {
+        background-image: url(/img/JillPrestonLarge.png)
+    }
+
+    /* smaller image for small screens */
+    @media only screen and (min-width: 576px) and (max-width: 991px) {
+        .header {
+            background-image: url(/img/JillPrestonSmall.png)
+        }
